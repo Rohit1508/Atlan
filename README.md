@@ -11,6 +11,15 @@
   - Antd- (Ant design - for common components and icons)
   - react-simple-code-editor (for sql editor)
 
+## Features added
+- Tab based query (multiple tabs user can create which has its own state)
+- Create query using Open AI
+- Export the table data
+- Save the queries for future reference
+- Table schema search
+- Can format the sql query on editor (Beautify)
+- Paginated tabel data
+
 ## Page load time
   Used google lighthouse to measure the load time and to capture core web vital metrics
      
