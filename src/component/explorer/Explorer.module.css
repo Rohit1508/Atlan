@@ -1,0 +1,32 @@
+.explorerContainer {
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.schema {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.savedQueries{
+    margin-top: 30vh;
+    padding: 20px;
+}
+
+.savedQueriesTitle {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.queryList {
+    display: flex;
+    gap: 10px;
+    color: rgb(66, 64, 64);
+    margin-bottom: 10px;
+    cursor: pointer;
+}

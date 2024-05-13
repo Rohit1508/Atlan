@@ -1,0 +1,28 @@
+.queryContainer {
+width: 100%;
+height: 100%;
+}
+
+.queryContainer>:first-child {
+    height: calc(33vh);
+    width: 100%;
+}
+
+.queryContainer>:last-child {
+   padding: 20px;
+   text-align: center;
+}
+
+.ant-tabs-content-holder {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translate(0%, 30vh);
+    color: grey;
+}
+
+.run {
+    font-size: 20px;
+}
+

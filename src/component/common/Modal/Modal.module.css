@@ -1,0 +1,51 @@
+/* Modal styles */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 500px;
+    height:500px;
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 50%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  
+  .modal.open {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+  }
+  
+  .modal.open .modal-content {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

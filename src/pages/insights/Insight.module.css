@@ -1,0 +1,20 @@
+.insightContainer {
+    display: flex;
+}
+
+.insightContainer >:first-child {
+    width: 17vw;
+    background: rgb(246, 246, 246);
+}
+
+.insightContainer >:last-child{
+    width: 83vw;
+}
+
+.home >:first-child {
+    height: 7vh;
+}
+
+.home >:last-child {
+    height: 93vh;
+}

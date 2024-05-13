@@ -1,0 +1,57 @@
+.schema-list {
+    width: 300px;
+  }
+  
+  .schema-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .schema-icon {
+    margin-right: 10px;
+    height: 2vmin;
+    pointer-events: none;
+  }
+  
+  
+.options {
+    margin-left: auto;
+    position: relative;
+  }
+  
+  .ellipsis {
+    cursor: pointer;
+  }
+  
+  .optionsList {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 5px); /* Adjust vertical position */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 0;
+  }
+  
+  .optionsList li {
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  
+  .optionsList li:hover {
+    background-color: green;
+  }
+  
+  .optionsList:hover{
+    display: block;
+  }
+  .schema-name {
+    font-size: 12px;
+  }
+
+  .active {
+    font-weight: bolder;
+  }
